@@ -1,0 +1,12 @@
+Compile MFEM with MPI, METIS, HYPRE, and NETCDF
+Example:
+make config PREFIX=/usr/workspace/wang125/software/mfem MFEM_USE_MPI=YES MFEM_USE_METIS=YES METIS_DIR=/usr/workspace/wang125/metis-4.0    HYPRE_DIR=/usr/workspace/wang125/hypre/src/hypre MFEM_USE_NETCDF=YES NETCDF_DIR=/usr/workspace/wang125/software/netcdf
+Replace wang125 with your directory
+Then 
+make 
+
+
+Compile mfem-fe-m  in miniapps/electromagnetics with 
+make mfem-fe-m
+Serial run tested 
+Parallel run not tested yet 
