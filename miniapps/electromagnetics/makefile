@@ -25,7 +25,7 @@ MFEM_LIB_FILE = mfem_is_not_built
 -include $(CONFIG_MK)
 
 SEQ_MINIAPPS =
-PAR_MINIAPPS = volta tesla maxwell joule mfem-fe-m
+PAR_MINIAPPS = volta tesla maxwell joule mfem-fe-m tesla_rod heat 
 ifeq ($(MFEM_USE_MPI),NO)
    MINIAPPS = $(SEQ_MINIAPPS)
 else
